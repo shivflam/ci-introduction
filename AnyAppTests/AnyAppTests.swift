@@ -26,6 +26,10 @@ class AnyAppTests: XCTestCase {
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
         
         XCTAssertTrue(5==5, "test success")
+        
+        XCTAssertEqual(3*3, 9)
+        
+        XCTAssertEqual(4*4, 16)
     }
 
     func testPerformanceExample() throws {

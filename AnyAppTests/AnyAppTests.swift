@@ -26,11 +26,15 @@ class AnyAppTests: XCTestCase {
     func testMult() throws {
         XCTAssertEqual(3*3, 9)
         XCTAssertEqual(4*4, 16)
+        
+        XCTAssertEqual(5*5, 25)
     }
     
     func testAdd() throws {
         XCTAssertEqual(3+3, 6)
 //        XCTAssertEqual(3+3, 10)
+        
+        XCTAssertEqual(3+7, 10)
     }
     
     func testSub() throws {

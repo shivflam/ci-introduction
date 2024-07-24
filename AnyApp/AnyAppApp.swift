@@ -10,11 +10,12 @@ import SwiftUI
 @main
 struct AnyAppApp: App {
     
+    var someBool = false
     
-    // new change
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+        
     }
 }

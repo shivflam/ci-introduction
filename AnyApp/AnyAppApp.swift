@@ -11,7 +11,9 @@ import SwiftUI
 
 @main
 struct AnyAppApp: App {
-    // change
+    
+    var someBool = false
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
